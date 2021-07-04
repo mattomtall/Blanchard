@@ -5,8 +5,17 @@
   display: flex;
   align-items: center;
 }
+.header-col-left {
+  display: flex;
+  align-items: center;
+}
 .logo-div {
-  max-width: 333px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 174px;
+}
+.logo {
+  margin-bottom: 7px;
 }
 .header {
   width: 100%;
@@ -22,6 +31,10 @@
   list-style: none;
   width: 100%;
   padding: 0px;
+  margin: 0px -25px;
+}
+.top-nav-item {
+  padding: 0px 25px;
 }
 .nav-item-link {
   text-decoration: none;
@@ -32,6 +45,7 @@
   box-sizing: border-box;
   border: 2px solid #000000;
   padding: 0px 4px 4px 4px;
+  white-space: nowrap;
 }
 .nav-item-link:hover {
   color: #c283f3;
@@ -46,6 +60,7 @@
 }
 .sign-in-link {
   display: flex;
+  margin: 0px -37px 1px 0px;
   margin-top: -1px;
   padding: 0px 3px 6px 6px;
   text-decoration: none;

@@ -2,5 +2,9 @@
   font-size: 16px;
   line-height: 32px;
   padding-left: 6px;
-  width: 68%;
+  width: 70%;
+  max-width: 1540px;
+}
+.about-us-col {
+  margin-left: -5px;
 }

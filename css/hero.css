@@ -26,11 +26,11 @@
   max-width: 1019px;
   width: 80%;
   padding: 0px;
-  margin: 0px;
+  margin: 0px -50px;
 }
 .hero-nav-item {
   padding: 6px;
-  margin: 0px;
+  margin: 0px 42px;
   min-height: unset;
   height: 19px;
   border: none;
@@ -39,9 +39,9 @@
   font-size: 18px;
   font-weight: 300;
   position: relative;
+  letter-spacing: 0.7px;
   color: #fff;
   padding-right: 21px !important;
-  letter-spacing: 0.3px;
   cursor: pointer;
 }
 .hero-nav-item:hover {
@@ -91,13 +91,12 @@
 .hero-nav-subitem.hidden {
   display: none;
 }
-.hero-nav-item:not(:last-of-type) {
-  margin-right: 100px;
-}
 .search-place {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  margin-right: -37px;
+  width: 260px;
 }
 .search-place::before {
   margin-right: 7px;
@@ -111,6 +110,7 @@
   border-bottom: 1px solid white;
   font-size: 18px;
   line-height: 25px;
+  padding-right: 25px;
 }
 .search-place input:hover {
   border-bottom: 1px solid #c283f3;
@@ -128,13 +128,15 @@
 .hero-main-row {
   flex-direction: column;
   align-items: flex-start;
-  max-width: 600px;
+  max-width: 610px;
 }
 .hero-h1 {
   font-weight: bold;
   font-size: 72px;
   line-height: 84px;
   color: #fff;
+  margin-top: 70px;
+  margin: 70px 0px 1px -5px;
 }
 .hero-description {
   font-weight: bold;
@@ -157,6 +159,7 @@
   border-radius: 100px;
   letter-spacing: 0.4px;
   box-sizing: border-box;
+  margin-top: 92px;
 }
 .follow-link:focus {
   border: 3px solid #7943a4;
