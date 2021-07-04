@@ -1,88 +1,88 @@
-.top{
-    background: #000000;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
+.top {
+  background: #000000;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
-.logo-div{
-    max-width: 333px;
-    margin-right: 172px;
+.logo-div {
+  max-width: 333px;
+  margin-right: 172px;
 }
-.logo{
-    margin: 0px 0px 0px 159px;
+.logo {
+  margin: 0px 0px 0px 159px;
 }
-.header{
-    width: 100%;
+.header {
+  width: 100%;
 }
-.header-top-nav{
-    max-width: 907px;
-    width: 65%;
-    margin-top: -3px;
-    margin-right: 266px;
+.header-top-nav {
+  max-width: 907px;
+  width: 65%;
+  margin-top: -3px;
+  margin-right: 266px;
 }
-.top-nav-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-    width: 100%;
-    padding: 0px;
+.top-nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  padding: 0px;
 }
-.nav-item-link{
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    padding: 0px 4px 4px 4px;
+.nav-item-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  padding: 0px 4px 4px 4px;
 }
-.nav-item-link:hover{
-    color: #C283F3;
+.nav-item-link:hover {
+  color: #c283f3;
 }
-.nav-item-link:focus{
-    border: 2px solid #7943A4;
-    background-color: #7943A4;
-    outline: none;
+.nav-item-link:focus {
+  border: 2px solid #7943a4;
+  background-color: #7943a4;
+  outline: none;
 }
-.nav-item-link:active{
-    color: #9D5CD0;
+.nav-item-link:active {
+  color: #9d5cd0;
 }
-.sign-in-link{
-    display: flex;
-    margin-top: -1px;
-    padding: 0px 3px 6px 6px;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 18px;
-    max-height: 25px;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    flex-wrap: nowrap;
+.sign-in-link {
+  display: flex;
+  margin-top: -1px;
+  padding: 0px 3px 6px 6px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  max-height: 25px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  flex-wrap: nowrap;
 }
-.sign-image{
-    display: inline-block;
-    margin-right: 7px;
-    margin-top: 4px;
+.sign-image {
+  display: inline-block;
+  margin-right: 7px;
+  margin-top: 4px;
 }
-.sign-in-link:focus{
-    border: 2px solid #7943A4;
-    background-color: #7943A4;
-    outline: none;
+.sign-in-link:focus {
+  border: 2px solid #7943a4;
+  background-color: #7943a4;
+  outline: none;
 }
-.sign-in-link:hover{
-    color: #C283F3;
-    border: 2px solid #000000;
+.sign-in-link:hover {
+  color: #c283f3;
+  border: 2px solid #000000;
 }
-.sign-in-link:hover svg{
-    stroke: #9D5CD0;
-    fill: #9D5CD0;
+.sign-in-link:hover svg {
+  stroke: #9d5cd0;
+  fill: #9d5cd0;
 }
-.sign-in-link:active{
-    color: #9D5CD0;
+.sign-in-link:active {
+  color: #9d5cd0;
 }
-.sign-in-link:active svg{
-    stroke: #9D5CD0;
+.sign-in-link:active svg {
+  stroke: #9d5cd0;
 }

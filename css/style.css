@@ -1,26 +1,26 @@
-body{
-    font-family: Open Sans;
-    font-weight: 400;
-    font-size: 14px;
-    outline: none !important;
+body {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  outline: none !important;
 }
-.container{
-    width: 84%;
-    max-width: 1600px;
+.container {
+  width: 84%;
+  max-width: 1600px;
 }
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 80px;
-    width: 100%;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  width: 100%;
 }
-.main-h2{
-    font-weight: 400;
-    font-size: 48px;
-    color: #333333;
-    line-height: 65px;
-    margin: 0px;
-    padding-left: 4px;
+.main-h2 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #333333;
+  line-height: 65px;
+  margin: 0px;
+  padding-left: 4px;
 }

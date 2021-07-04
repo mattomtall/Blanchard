@@ -1,32 +1,32 @@
-.gallery{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('../files/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 3.png');
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 915px;
-    margin-top: 54px;
-    padding-top: 80px;
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../files/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 3.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 915px;
+  margin-top: 54px;
+  padding: 80px 160px;
 }
-.gallery-h2{
-    color: #FFF;
+.gallery-h2 {
+  color: #fff;
 }
-.filter{
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    padding-left: 10px;
-    color: #FFF;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 32px;
+.filter {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding-left: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
 }
-.special-offer{
-    color: #FFF;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 32px;
+.special-offer {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
 }
