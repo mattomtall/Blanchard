@@ -1,0 +1,175 @@
+.hero{
+    width: 100%;
+    min-height: 800px;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../files/hero/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 2.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-top{
+    display: flex;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+}
+.hero-nav{
+    max-width: 1177px;
+    width: 75%;
+    margin-top: -2px;
+    margin-right: 330px;
+}
+.hero-nav-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    max-width: 1019px;
+    width: 80%;
+    padding: 0px;
+    padding-left: 158px;
+    margin: 0px;
+}
+.hero-nav-item{
+    padding: 6px;
+    margin: 0px;
+    min-height: unset;
+    height: 19px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 10 !important;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    color: #FFF;
+    padding-right: 21px !important;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+.hero-nav-item:hover {
+    color: #9D5CD0;
+}
+.hero-nav-item::after{
+    content: url("../files/Rectangle\ 75.png");
+    top: 5px;
+    border: none;
+    z-index: 11;
+    position: absolute;
+    right: 6px;
+    width: auto;
+    height: auto;
+}
+.hero-nav-item:hover::after {
+    content: url("../files/Rectangle\ 76.png");
+}
+.hero-nav-item:focus {
+    background-color: #7943A4;
+    color: #FFF;
+    outline: none;
+}
+.hero-nav-item:focus::after {
+    content: url("../files/Rectangle\ 75.png");
+}
+.hero-nav-item.active {
+    color: #7943A4;
+    background-color: transparent;
+}
+.hero-nav-item.active::after {
+    content: url("../files/Rectangle\ 74.png");
+    top: 8px;
+}
+
+.hero-nav-subitem{
+    list-style: none;
+    padding: 0;
+    color: #FFF;
+}
+.hero-nav-item li {
+    padding: 6px 6px 0px 6px;
+}
+.hero-nav-subitem li:hover {
+    color: #9D5CD0;
+    
+}
+.hero-nav-subitem.hidden{
+    display: none;
+}
+.hero-nav-item:not(:last-of-type){
+    margin-right: 100px;
+}
+.hero-h1{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    width: 597px; 
+    color: #FFF;
+    margin: 69px auto 2px 154px;
+}
+.search-place{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.search-place::before{
+    margin-right: 7px;
+    margin-bottom: -2px;
+    content: url('../files/Group\ 64.svg');
+}
+.search-place input{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    line-height: 25px;
+}
+.search-place input:hover {
+    border-bottom: 1px solid #C283F3;
+    cursor: pointer;
+}
+.search-place input:focus {
+    border-bottom: 1px solid #C283F3;
+}
+.search-place input:active {
+    border-bottom: 1px solid #7943A4;
+}
+.search-place input::placeholder{
+    color: #FFF;
+}
+.hero-description{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFF;
+    width: 597px;
+    margin: 19px 1181px 92px 159px;
+}
+.follow-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #9D5CD0;
+    width: 314px;
+    height: 70px;
+    text-align: center;
+    border-radius: 100px;
+    margin: 0px auto 122px 160px;
+    letter-spacing: 0.4px;
+    box-sizing: border-box;
+}
+.follow-link:focus{
+    border: 3px solid #7943A4;
+    outline: none;
+}
+.follow-link:hover{
+    border: 3px solid #D1A9F0;
+}
+.follow-link:active{
+    border: 3px solid #D1A9F0;
+    background-color: #7943A4;
+}
