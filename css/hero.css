@@ -164,11 +164,14 @@
 .follow-link:focus {
   border: 3px solid #7943a4;
   outline: none;
+  color: #fff;
 }
 .follow-link:hover {
   border: 3px solid #d1a9f0;
+  color: #fff;
 }
 .follow-link:active {
   border: 3px solid #d1a9f0;
   background-color: #7943a4;
+  color: #fff;
 }

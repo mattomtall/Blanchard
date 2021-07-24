@@ -10,17 +10,13 @@
 }
 .events .row {
 	align-items: unset;
-	margin-bottom: 50px;
 }
 .events .events-card {
-	width: calc(100%/3 - 33.3px);
+	width: calc(100%/3 - 34px);
 	border: 1px solid #CACACA;
 	max-width: 500px;
-	max-height: 700px; 
 	padding-bottom: 48px;
-}
-.events-card-2 {
-	margin: 0 50px;
+	margin-bottom: 50px;
 }
 .events-card-image img {
 	max-width: 500px;
@@ -38,7 +34,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 308px;
 	font-size: 16px;
 }
 .events-card-text {
